@@ -1,0 +1,21 @@
+{
+  "name": "solana-ts-tests",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./src/app.ts",
+  "scripts": {
+    "start": "npx tsx ./src/app.ts"
+  },
+  "author": "sinusquell",
+  "license": "ISC",
+  "dependencies": {
+    "@bonfida/spl-name-service": "^2.1.1",
+    "@solana-developers/node-helpers": "^1.2.1",
+    "@solana/web3.js": "^1.87.6",
+    "bigint-buffer": "^1.1.5",
+    "dotenv": "^16.3.1",
+    "esrun": "^3.2.26",
+    "typescript": "^5.3.3"
+  }
+}
