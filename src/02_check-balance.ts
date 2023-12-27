@@ -8,7 +8,7 @@ if (!suppliedPublicKey) {
   throw new Error("Provide a public key to check the balance of!");
 }
 
-//establish connection to the cluster
+// establish connection to the cluster
 const connection = new Connection(clusterApiUrl("mainnet-beta"))
 
 // validate input public key
