@@ -1,6 +1,6 @@
 import "dotenv/config";
 import { Connection, PublicKey, clusterApiUrl, LAMPORTS_PER_SOL  } from "@solana/web3.js";
-import Validator from "./lib/validator"
+import Validator from "lib/Validator";
 
 // make sure we got a public key as input
 let suppliedPublicKey = process.argv[2] || null;
