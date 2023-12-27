@@ -1,2 +1,2 @@
 # solana-ts
- solana course project
+solana dapp development course project
